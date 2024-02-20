@@ -1,0 +1,16 @@
+mysql -u root -p -h localhost -P 3006
+show databases;
+create database faculdade;
+use faculdade
+creat table aluno (nome varchar(50) not null, cpf varchar(20) not null);
+shoe tables;
+decribe aluno;
+insert into aluno (nome, cpf) values ('Joao', '232323)
+select * from aluno;
+select nome from aluno;
+select Nome_Comleto from aluno;                                  # (troquei o nome do atributo na tabela)
+delete from aluno
+uptade aluno set nome = 'Ana Julia';
+where cpf = '252525';
+delete from
+aluno where cpf = '252525'
